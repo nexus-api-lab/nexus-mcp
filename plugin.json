@@ -1,0 +1,31 @@
+{
+  "name": "nexus-mcp",
+  "display_name": "nexus-api-lab — jpi-guard & PII Guard",
+  "description": "Two LLM security APIs: (1) jpi-guard detects prompt injection attacks specialized for Japanese RAG apps. (2) PII Guard scans Japanese text for 10 PII categories and masks them. Both are free to start — no credit card required.",
+  "version": "1.0.0",
+  "author": "nexlabo",
+  "homepage": "https://www.nexus-api-lab.com",
+  "repository": "https://github.com/nexus-api-lab/nexus-mcp",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "check-rag-security",
+      "description": "Run a prompt injection security scan on a RAG endpoint",
+      "file": "skills/check-rag-security.md"
+    },
+    {
+      "name": "setup-jpi-guard",
+      "description": "Add jpi-guard security checks to the current RAG project",
+      "file": "skills/setup-jpi-guard.md"
+    },
+    {
+      "name": "scan-pii",
+      "description": "Scan text for Japanese PII (My Number, credit card, phone, name, etc.) and mask it",
+      "file": "skills/scan-pii.md"
+    }
+  ],
+  "mcp": {
+    "server": "https://mcp.nexus-api-lab.com/",
+    "transport": "http"
+  }
+}

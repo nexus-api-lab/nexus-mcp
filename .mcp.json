@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "nexus-mcp": {
+      "type": "http",
+      "url": "https://mcp.nexus-api-lab.com/",
+      "description": "jpi-guard (prompt injection detection) + PII Guard (Japanese PII masking) — both free to start"
+    }
+  }
+}

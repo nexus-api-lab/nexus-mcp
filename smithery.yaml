@@ -1,0 +1,18 @@
+# Smithery configuration for nexus-mcp
+# HTTP MCP server — no local process required
+# Docs: https://smithery.ai/docs/config
+
+startCommand:
+  type: streamableHttp
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        title: API Key (optional)
+        description: >
+          Your jpi-guard or PII Guard API key.
+          Leave blank to get a free key via the get_trial_key or get_pii_guard_key tool.
+    required: []
+  exampleConfig: {}
+  url: https://mcp.nexus-api-lab.com/
