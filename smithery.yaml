@@ -12,7 +12,7 @@ startCommand:
         title: API Key (optional)
         description: >
           Your jpi-guard or PII Guard API key.
-          Leave blank to get a free key via the get_trial_key or get_pii_guard_key tool.
+          Leave blank — Claude will call get_trial_key or get_pii_guard_key automatically to get a free key.
     required: []
   exampleConfig: {}
   url: https://mcp.nexus-api-lab.com/
